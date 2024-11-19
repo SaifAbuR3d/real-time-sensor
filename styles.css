@@ -1,0 +1,74 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Container Styles */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title Styles */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: #ffdd57;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Data Display Styles */
+.data-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff6f61;
+  margin-left: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .data-item {
+    font-size: 1.1rem;
+  }
+
+  span {
+    font-size: 1.3rem;
+  }
+}
